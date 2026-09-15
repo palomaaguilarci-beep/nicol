@@ -1,14 +1,13 @@
-# Calculadora en Turbo Pascal
+# Programas en Turbo Pascal
 
-Este repositorio contiene `calculadora.pas`, un programa compatible con Turbo Pascal que:
+Este repositorio contiene dos ejemplos compatibles con Turbo Pascal:
 
-- Muestra el mensaje **Hola Mundo**.
-- Solicita al usuario dos numeros reales.
-- Calcula la suma, resta, multiplicacion y division.
-- Evita la division entre cero.
-- Organiza la funcionalidad mediante varios `procedure`.
+- `hola_mundo.pas`: muestra un mensaje de **Hola Mundo**.
+- `calculadora.pas`: solicita al usuario dos números reales y calcula la suma, resta, multiplicación y división.
 
-## Procedimientos incluidos
+## Calculadora con procedimientos
+
+`calculadora.pas` organiza la funcionalidad mediante varios `procedure`:
 
 - `MostrarSaludo`
 - `LeerNumero`
@@ -18,8 +17,12 @@ Este repositorio contiene `calculadora.pas`, un programa compatible con Turbo Pa
 - `MostrarDivision`
 - `MostrarResultados`
 
-## Ejecucion
+El programa evita la división entre cero y muestra los resultados con dos decimales.
 
-Abre `calculadora.pas` en Turbo Pascal, compila con `Alt+F9` y ejecuta con `Ctrl+F9`.
+## Ejecución en Turbo Pascal
 
-El programa acepta numeros enteros o decimales usando el formato decimal configurado por Turbo Pascal.
+1. Abre `hola_mundo.pas` o `calculadora.pas` en Turbo Pascal.
+2. Compila con `Alt+F9`.
+3. Ejecuta con `Ctrl+F9`.
+
+La calculadora acepta números enteros o decimales usando el formato decimal configurado por Turbo Pascal.
